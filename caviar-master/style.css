@@ -820,7 +820,7 @@ li {
 }
 
 .about-us-second-part:after {
-    content: 'About Us';
+    content: 'Sobre nosotros';
     position: absolute;
     top: 110px;
     font-size: 150px;
