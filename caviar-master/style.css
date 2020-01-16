@@ -25,6 +25,15 @@
     margin: 0;
     padding: 0;
 }
+.menu1{
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+
+}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -617,10 +626,13 @@ li {
 }
 
 .navbar-brand {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-right: 0;
+    background: url(img/logo/logo.png) no-repeat;
+    background-size: auto;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-size: 100% 100%;
+
 }
 
 .navbar-brand:hover,
