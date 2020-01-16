@@ -1025,6 +1025,7 @@ li {
 
 .reservation-form-area,
 .contact-form-area {
+    text-align: center;
     width: calc(50% - 100px);
 }
 
@@ -1034,12 +1035,14 @@ li {
 
 .reservation-form,
 .contact-form {
+    text-align: center;
     width: 390px;
     margin-right: 67.5px;
 }
 
 .reservation-form .form-control,
 .contact-form .form-control {
+    text-align: center;
     border: none;
     border-bottom: 1px solid #c1c1c1;
     border-radius: 0;
@@ -1053,12 +1056,14 @@ li {
 
 .reservation-form .form-control:focus,
 .contact-form .form-control:focus {
+    text-align: center;
     box-shadow: none;
     color: rgba(51, 51, 51, 1);
 }
 
 .reservation-form textarea.form-control,
 .contact-form textarea.form-control {
+    text-align: center;
     border: none;
     height: 120px;
 }
@@ -1231,19 +1236,7 @@ li {
     display: inline-block;
 }
 
-/* Google Maps Area CSS */
 
-.caviar-map-area {
-    width: calc(50% + 125px);
-    height: 500px;
-    position: relative;
-    z-index: 1;
-}
-
-#googleMap {
-    width: 100%;
-    height: 100%;
-}
 
 .contact-form-title p {
     text-align: center;
