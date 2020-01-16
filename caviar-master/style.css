@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
 }
-.menu1{
+.menu1.header_area{
 
     float: left;
     width: 50px;
@@ -620,8 +620,8 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 70px;
+    background-color: rgba(0, 142, 82, 0.73);
+    height: 100px;
     z-index: 9999;
 }
 
@@ -650,7 +650,7 @@ li {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item.active .nav-link {
-    color: #ff0000;
+    color: #9f0a6c;
 }
 
 .caviar-search-btn > a {
