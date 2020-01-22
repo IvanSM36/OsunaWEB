@@ -805,11 +805,15 @@ li {
 }
 
 .about-us-second-part:after {
+<<<<<<< HEAD
     content: 'About Us';
+=======
+    content: 'Sobre⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  nosotros';
+>>>>>>> 16a7f8e5ee9141cc6fd80193b3885ee1bd4096ab
     position: absolute;
     top: 110px;
     font-size: 150px;
-    left: 0;
+    left:-100px;
     color: rgba(0, 0, 0, 0.05);
     font-weight: 700;
     line-height: 1;
@@ -839,8 +843,8 @@ li {
 
 .caviar-dish-menu:before {
     position: absolute;
-    font-size: 150px;
-    right: -10%;
+    font-size: 120px;
+    right: 0;
     margin: 0;
     content: 'Special';
     line-height: 1;
