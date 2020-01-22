@@ -25,6 +25,15 @@
     margin: 0;
     padding: 0;
 }
+.menu1.header_area{
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+
+}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -611,16 +620,19 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 70px;
+    background-color: rgba(0, 142, 82, 0.73);
+    height: 100px;
     z-index: 9999;
 }
 
 .navbar-brand {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-right: 0;
+    background: url(img/logo/logo.png) no-repeat;
+    background-size: auto;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-size: 100% 100%;
+
 }
 
 .navbar-brand:hover,
@@ -638,7 +650,7 @@ li {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item.active .nav-link {
-    color: #ff0000;
+    color: #9f0a6c;
 }
 
 .caviar-search-btn > a {
@@ -1025,6 +1037,7 @@ li {
 
 .reservation-form-area,
 .contact-form-area {
+    text-align: center;
     width: calc(50% - 100px);
 }
 
@@ -1034,12 +1047,14 @@ li {
 
 .reservation-form,
 .contact-form {
+    text-align: center;
     width: 390px;
     margin-right: 67.5px;
 }
 
 .reservation-form .form-control,
 .contact-form .form-control {
+    text-align: center;
     border: none;
     border-bottom: 1px solid #c1c1c1;
     border-radius: 0;
@@ -1053,12 +1068,14 @@ li {
 
 .reservation-form .form-control:focus,
 .contact-form .form-control:focus {
+    text-align: center;
     box-shadow: none;
     color: rgba(51, 51, 51, 1);
 }
 
 .reservation-form textarea.form-control,
 .contact-form textarea.form-control {
+    text-align: center;
     border: none;
     height: 120px;
 }
@@ -1231,19 +1248,7 @@ li {
     display: inline-block;
 }
 
-/* Google Maps Area CSS */
 
-.caviar-map-area {
-    width: calc(50% + 125px);
-    height: 500px;
-    position: relative;
-    z-index: 1;
-}
-
-#googleMap {
-    width: 100%;
-    height: 100%;
-}
 
 .contact-form-title p {
     text-align: center;
