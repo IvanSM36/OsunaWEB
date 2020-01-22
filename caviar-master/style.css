@@ -1235,6 +1235,8 @@ li {
 }
 
 .contact-form-title p {
+
+    text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
