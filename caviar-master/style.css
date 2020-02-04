@@ -28,7 +28,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fafafa;
+    background-color: rgb(255, 208, 108);
 }
 
 h1,
@@ -268,8 +268,8 @@ li {
 }
 
 .caviar-load {
-    -webkit-animation: 10000ms linear 0s normal none infinite running caviar-load;
-    animation: 10000ms linear 0s normal none infinite running caviar-load;
+    -webkit-animation: 6000ms linear 0s normal none infinite running caviar-load;
+    animation: 6000ms linear 0s normal none infinite running caviar-load;
     background: transparent none repeat scroll 0 0;
     border-color: #ebebeb #ebebeb #ff0000;
     border-radius: 50%;
@@ -308,8 +308,8 @@ li {
 }
 
 #preloader .preload-icons .preload-1 {
-    -webkit-animation: 10000ms linear 0s normal none infinite running load-1;
-    animation: 10000ms linear 0s normal none infinite running load-1;
+    -webkit-animation: 6000ms linear 0s normal none infinite running load-1;
+    animation: 6000ms linear 0s normal none infinite running load-1;
 }
 
 @-webkit-keyframes load-1 {
@@ -351,8 +351,8 @@ li {
 }
 
 #preloader .preload-icons .preload-2 {
-    -webkit-animation: 10000ms linear 0s normal none infinite running load-2;
-    animation: 10000ms linear 0s normal none infinite running load-2;
+    -webkit-animation: 6000ms linear 0s normal none infinite running load-2;
+    animation: 6000ms linear 0s normal none infinite running load-2;
 }
 
 @-webkit-keyframes load-2 {
@@ -410,8 +410,8 @@ li {
 }
 
 #preloader .preload-icons .preload-3 {
-    -webkit-animation: 10000ms linear 0s normal none infinite running load-3;
-    animation: 10000ms linear 0s normal none infinite running load-3;
+    -webkit-animation: 6000ms linear 0s normal none infinite running load-3;
+    animation: 6000ms linear 0s normal none infinite running load-3;
 }
 
 @-webkit-keyframes load-3 {
@@ -585,6 +585,7 @@ li {
 
 .header_area {
     position: fixed;
+    background-color: #44121ee6;
     width: 100%;
     z-index: 9999;
     height: 100px;
@@ -596,16 +597,18 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 70px;
+    background-color: #44121ee6;
+    height: 100px;
     z-index: 9999;
 }
 
 .navbar-brand {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-right: 0;
+    background: url(img/logo/logo.png) no-repeat;
+    background-size: auto;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-size: 100% 100%;
 }
 
 .navbar-brand:hover,
@@ -623,7 +626,7 @@ li {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item.active .nav-link {
-    color: #ff0000;
+    color: #F2CA7E;
 }
 
 .caviar-search-btn > a {
@@ -642,8 +645,8 @@ li {
 }
 
 .dropdown-item:hover {
-    background-color: #ff0000;
-    color: #fff;
+    background-color: #44121ee6;
+    color: rgb(255, 208, 108);
 }
 
 /* Hero Area CSS */
@@ -846,7 +849,7 @@ li {
     font-size: 120px;
     right: 0;
     margin: 0;
-    content: 'Especiales';
+    content: 'Special';
     line-height: 1;
     top: 35%;
     -webkit-transform: rotate(-90deg);
@@ -1055,7 +1058,7 @@ li {
 /* Footer Area CSS */
 
 .caviar-footer-area {
-    background-color: #333333;
+    background-color: #44121ee6;
     padding: 40px 0;
     text-align: center;
 }
@@ -1235,8 +1238,6 @@ li {
 }
 
 .contact-form-title p {
-
-    text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
