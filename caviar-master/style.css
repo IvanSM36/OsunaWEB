@@ -203,7 +203,10 @@ a:active {
 }
 
 li {
+
     list-style: none;
+    text-align: center;
+    margin-top: 23px;
 }
 
 .caviar-table {
@@ -604,7 +607,7 @@ li {
 
 .navbar-brand {
     background: url(img/logo/logo.png) no-repeat;
-    background-size: auto;
+    
     display: inline-block;
     width: 300px;
     height: 100px;
@@ -621,7 +624,7 @@ li {
     padding-right: 15px;
     padding-left: 15px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar-nav .nav-link:hover,
