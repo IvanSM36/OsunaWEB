@@ -808,11 +808,8 @@ li {
 }
 
 .about-us-second-part:after {
-<<<<<<< HEAD
     content: 'About Us';
-=======
     content: 'Sobre⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  nosotros';
->>>>>>> 16a7f8e5ee9141cc6fd80193b3885ee1bd4096ab
     position: absolute;
     top: 110px;
     font-size: 150px;
